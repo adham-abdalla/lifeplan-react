@@ -1,0 +1,7 @@
+:root { --brand: #004c6c; --accent: #ffd400; }
+body { background: #f5f7f9; }
+.brand-bar { background: var(--brand); border-bottom: 4px solid var(--accent); }
+.nav-pills .nav-link.active { background: var(--brand); }
+.nav-pills .nav-link { color: var(--brand); }
+.legend-swatch { display: inline-block; width: 12px; height: 12px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
+.btn-dark { background: var(--brand); border-color: var(--brand); }
